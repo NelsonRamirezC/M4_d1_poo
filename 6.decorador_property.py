@@ -5,6 +5,7 @@ class Persona:
     @property
     def nombre(self):
         return self.__nombre.upper()
+    
     @nombre.setter
     def nombre(self, nuevo_nombre):
         if nuevo_nombre != "":
